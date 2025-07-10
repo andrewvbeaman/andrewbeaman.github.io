@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Andrew Beaman</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: #f5f7f4;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #a7d7c5, #e3d8c4);
+      padding: 60px 20px;
+      text-align: center;
+      border-bottom: 2px solid #ccc;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin: 0;
+      color: #2d4c41;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #444;
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      color: #2d4c41;
+      font-size: 1.8rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    .info {
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+
+    .contact {
+      margin-top: 20px;
+    }
+
+    .contact p {
+      margin: 6px 0;
+    }
+
+    .social a {
+      text-decoration: none;
+      color: #2d4c41;
+      font-weight: bold;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+      height: 250px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.02);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #e3d8c4;
+      color: #555;
+      font-size: 0.9rem;
+      border-top: 1px solid #ccc;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      section {
+        padding: 30px 15px;
+      }
+
+      .gallery img {
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Andrew Beaman</h1>
+    <p>Campbell University Cheerleader · Class of 2028</p>
+    <p>Communication in New & Digital Media + Business in Marketing</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <div class="info">
+      <p>Hey! I’m Andrew — I’m from Raleigh, North Carolina and I’m currently a student at Campbell University majoring in Communication with a focus in New and Digital Media, and double-majoring in Business Marketing. I'm also a proud member of the Campbell University Cheer team!</p>
+      <p>I have a love for creative communication, social media storytelling, and branding that blends authenticity with aesthetic. Think: bohemian coastal vibes, cute professionalism, and fine line simplicity.</p>
+    </div>
+
+    <div class="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:andrewvbeaman@gmail.com">andrewvbeaman@gmail.com</a></p>
+      <p>Phone: <a href="tel:9843815750">984-381-5750</a></p>
+      <p class="social">Instagram: <a href="https://www.instagram.com/andrewvbeaman" target="_blank">@andrewvbeaman</a></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x250.png?text=Cheer+Shot+1" alt="Cheer Shot 1">
+      <img src="https://via.placeholder.com/300x250.png?text=Campus+Vibes" alt="Campus Vibes">
+      <img src="https://via.placeholder.com/300x250.png?text=Boho+Aesthetic" alt="Boho Aesthetic">
+      <img src="https://via.placeholder.com/300x250.png?text=South+NC+Beach" alt="Southport Beach">
+      <img src="https://via.placeholder.com/300x250.png?text=Headshot" alt="Headshot">
+      <img src="https://via.placeholder.com/300x250.png?text=Cheer+Team" alt="Cheer Team">
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Andrew Beaman · Designed with coastal calm and good energy.
+  </footer>
+
+</body>
+</html>
